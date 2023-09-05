@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.addtask{
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.add-task-form {
+  
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    padding: 25px;
+    /* background-color: rgb(211, 244, 244); */
+    background: linear-gradient(#00ccff, #d500f9);
+    border-radius: 50px;
+    
+} 
+.add-task-form h2{
+    font-weight: bold;
+   }
+   
+   .add-task-form input{
+     margin: 20px;
+     padding: 10px;
+     border-radius: 7px;
+   }
+   .add-task-form textarea{
+     margin: 20px;
+     padding: 10px;
+     border-radius: 7px;
+   
+   }
+   .task-card{
+display: flex;
+flex-direction: column;
+background: linear-gradient(#ffffff, #d500f9);
+padding: 18px;
+margin: 13px;
+border-radius: 10px;
+
+   }
+   .task-card input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .task-card textarea{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+  
+  }
+  h2{
+    text-align: center;
+  }
+  .btn{
+    margin: 2px;
+  }
